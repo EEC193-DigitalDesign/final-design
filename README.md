@@ -185,11 +185,13 @@ Available tests:
 
 Team Thomas, UC Davis (EEC 193):
 
-- Isidro Pulido
-- Justin Hsu
 - Max Madrigal
-- Ricardo Gonzales
 - Yaseen Alkhameri
+- Justin Hsu
+- Ricardo Gonzales
+- Isidro Pulido
+
+
 
 Advisor: Professor Thomas.
 
