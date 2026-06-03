@@ -1,0 +1,402 @@
+{
+  "mode": "donut_sobel_binary_l1_sparse_matcher_only",
+  "image": "objects/donut/donut.png",
+  "image_sha256": "c40e03eae30d5a3298b9ccb38182bce9fd8bc984e5885d7f3666b88de9f71f65",
+  "template_size": 32,
+  "num_taps": 64,
+  "positive_taps": 52,
+  "negative_taps": 12,
+  "positive_weight": 7,
+  "negative_weight": -2,
+  "edge_threshold_l1": 190,
+  "edge_output_mode": "binary_0_or_255_from_raw_l1",
+  "dilate": 0,
+  "neg_gap": 4,
+  "seed": 42,
+  "taps": [
+    {
+      "row": 17,
+      "col": 29,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 20,
+      "col": 29,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 22,
+      "col": 28,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 24,
+      "col": 27,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 26,
+      "col": 25,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 27,
+      "col": 23,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 29,
+      "col": 21,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 29,
+      "col": 19,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 30,
+      "col": 17,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 30,
+      "col": 14,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 29,
+      "col": 12,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 29,
+      "col": 10,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 27,
+      "col": 7,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 26,
+      "col": 5,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 24,
+      "col": 4,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 22,
+      "col": 3,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 20,
+      "col": 2,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 18,
+      "col": 1,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 15,
+      "col": 1,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 12,
+      "col": 2,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 10,
+      "col": 3,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 8,
+      "col": 4,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 6,
+      "col": 5,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 5,
+      "col": 7,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 3,
+      "col": 9,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 2,
+      "col": 11,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 2,
+      "col": 13,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 2,
+      "col": 16,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 2,
+      "col": 18,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 2,
+      "col": 20,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 3,
+      "col": 22,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 5,
+      "col": 24,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 6,
+      "col": 26,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 8,
+      "col": 27,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 10,
+      "col": 28,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 12,
+      "col": 29,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 14,
+      "col": 29,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 16,
+      "col": 29,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 18,
+      "col": 19,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 26,
+      "col": 24,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 20,
+      "col": 16,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 19,
+      "col": 14,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 19,
+      "col": 12,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 17,
+      "col": 12,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 15,
+      "col": 11,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 13,
+      "col": 12,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 13,
+      "col": 14,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 11,
+      "col": 15,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 2,
+      "col": 15,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 12,
+      "col": 17,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 13,
+      "col": 19,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 15,
+      "col": 20,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 24,
+      "col": 12,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 21,
+      "col": 8,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 10,
+      "col": 22,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 31,
+      "col": 29,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 29,
+      "col": 0,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 2,
+      "col": 0,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 2,
+      "col": 31,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 0,
+      "col": 26,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 0,
+      "col": 5,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 0,
+      "col": 0,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 0,
+      "col": 0,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 0,
+      "col": 0,
+      "weight": -2,
+      "kind": "neg"
+    }
+  ]
+}

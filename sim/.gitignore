@@ -1,0 +1,16 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+tests/__pycache__/
+*.pyc
+
+# Simulation build/log/output artifacts
+build/
+logs/
+output/
+results.xml
+transcript*
+modelsim.ini
+vsim_stacktrace.vstf
+*.vcd
+*.wlf

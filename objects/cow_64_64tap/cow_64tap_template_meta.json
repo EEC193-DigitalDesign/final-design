@@ -1,0 +1,404 @@
+{
+  "mode": "cow_opencv_sobel_sparse_matcher",
+  "image": "objects/cow/cowSide.jpg",
+  "image_sha256": "b07b473f22a7a8ae423b33c15451cef1173fe31a01a40d7ba2d632571b8e9416",
+  "template_size": 64,
+  "num_taps": 64,
+  "row_w": 6,
+  "col_w": 6,
+  "positive_taps": 52,
+  "negative_taps": 12,
+  "positive_weight": 7,
+  "negative_weight": -2,
+  "edge_threshold": 100,
+  "dilate": 0,
+  "neg_gap": 3,
+  "seed": 42,
+  "crop_mode": "foreground",
+  "taps": [
+    {
+      "row": 33,
+      "col": 42,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 35,
+      "col": 48,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 38,
+      "col": 46,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 37,
+      "col": 43,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 40,
+      "col": 43,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 43,
+      "col": 44,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 41,
+      "col": 40,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 44,
+      "col": 41,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 47,
+      "col": 40,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 53,
+      "col": 42,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 48,
+      "col": 37,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 56,
+      "col": 36,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 48,
+      "col": 34,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 47,
+      "col": 31,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 42,
+      "col": 31,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 45,
+      "col": 28,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 42,
+      "col": 28,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 44,
+      "col": 25,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 45,
+      "col": 22,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 46,
+      "col": 18,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 46,
+      "col": 15,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 45,
+      "col": 12,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 41,
+      "col": 12,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 38,
+      "col": 13,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 36,
+      "col": 9,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 33,
+      "col": 5,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 31,
+      "col": 8,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 30,
+      "col": 19,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 29,
+      "col": 22,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 26,
+      "col": 18,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 25,
+      "col": 21,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 26,
+      "col": 24,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 27,
+      "col": 27,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 27,
+      "col": 30,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 24,
+      "col": 30,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 17,
+      "col": 32,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 4,
+      "col": 36,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 2,
+      "col": 39,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 1,
+      "col": 42,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 1,
+      "col": 45,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 3,
+      "col": 49,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 4,
+      "col": 53,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 8,
+      "col": 55,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 11,
+      "col": 58,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 17,
+      "col": 56,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 30,
+      "col": 39,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 24,
+      "col": 59,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 27,
+      "col": 58,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 30,
+      "col": 57,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 61,
+      "col": 18,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 61,
+      "col": 15,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 4,
+      "col": 44,
+      "weight": 7,
+      "kind": "pos"
+    },
+    {
+      "row": 9,
+      "col": 63,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 11,
+      "col": 0,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 47,
+      "col": 52,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 63,
+      "col": 52,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 55,
+      "col": 63,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 8,
+      "col": 14,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 63,
+      "col": 23,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 11,
+      "col": 8,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 62,
+      "col": 62,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 41,
+      "col": 52,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 44,
+      "col": 62,
+      "weight": -2,
+      "kind": "neg"
+    },
+    {
+      "row": 57,
+      "col": 49,
+      "weight": -2,
+      "kind": "neg"
+    }
+  ]
+}
