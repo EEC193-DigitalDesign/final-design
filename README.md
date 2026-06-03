@@ -1,6 +1,6 @@
 # Real-Time Object Detection using Matched Filtering on FPGA
 
-ECE Outstanding Senior Design Project Award Winner
+> **ECE Outstanding Senior Design Project Award Winner**
 
 A dedicated hardware pipeline for template-based object detection on the
 DE1-SoC + D8M camera. Object recognition is normally a software task on GPUs
