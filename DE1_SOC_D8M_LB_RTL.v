@@ -370,10 +370,9 @@ sobel3x3_stream #(
     .y_out     ( edge_y )
 );
 
-sparse_template_matcher #(
+systolic_template_matcher #(
     .IMAGE_WIDTH  ( DS_WIDTH ),
     .TEMPLATE_SIZE( TEMPLATE_SIZE ),
-    .NUM_TAPS     ( MF_NUM_TAPS ),
     .ROW_W        ( ROW_W ),
     .COL_W        ( COL_W ),
     .FEATURE_W    ( 8 ),
