@@ -193,7 +193,7 @@ Team Thomas, UC Davis (EEC 193):
 
 
 
-Advisor: Professor Thomas.
+Advisor: Professor Anthony Thomas.
 
 ## AI use
 
