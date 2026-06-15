@@ -26,6 +26,9 @@ RGB stream (8b R/G/B, 25 MHz pixel clock)
    |  rgb_downsample_gray.v      (2:1 downsample, ITU-R BT.601 grayscale)
    v
 Gray stream (320x240, 8b)
+   |  gaussian3x3_stream.v       (3x3 Gaussian blur, noise reduction)
+   v
+Smoothed Gray stream (320x240, 8b)
    |  sobel3x3_stream.v          (3x3 Sobel, L1 |Gx|+|Gy|, edge thresholding)
    v
 Edge magnitude stream (320x240, 8b)
@@ -74,6 +77,7 @@ final-design/
 ├── rtl/
 │   ├── object_detection/            # core detection pipeline (the interesting stuff)
 │   │   ├── rgb_downsample_gray.v
+│   │   ├── gaussian3x3_stream.v     
 │   │   ├── sobel3x3_stream.v
 │   │   ├── stream_delay_engine.v
 │   │   ├── score_tree.v
@@ -138,7 +142,7 @@ constraints are in `DE1_SOC_D8M_LB_RTL.sdc`.
 ## Generating a new template
 
 Templates are produced by Python scripts from a reference image. Each script
-reads its source image, runs the same downsample / grayscale / Sobel chain in
+reads its source image, runs the same downsample / grayscale / Gaussian Blur / Sobel chain in
 software, picks the strongest `NUM_TAPS` edge pixels, and emits a `.vh` file
 that gets `\`included` by `score_tree.v` at synthesis time.
 
