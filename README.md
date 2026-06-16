@@ -16,6 +16,11 @@ Senior design project (UC Davis EEC 193). The repo is the full Quartus
 project: top-level RTL, the detection pipeline, Terasic D8M camera/autofocus
 infrastructure, simulation environment, and template-generation utilities.
 
+## Project materials
+
+- [Final paper](docs/TeamThomas_RealTimeObjectDetectionFPGA_2026.pdf)
+- [Final poster](../final-poster)
+
 ## Pipeline
 
 ```
@@ -96,7 +101,8 @@ final-design/
 ├── python/
 │   ├── pythonTemplateGen/           # template generators (image -> .vh)
 │   └── posterpy/                    # poster figure renderer (OpenCV mock of pipeline)
-└── objects/                         # reference images and generated debug overlays
+├── objects/                         # reference images and generated debug overlays
+└── docs/                            # Senior Design Final Paper
 ```
 
 The RTL under `rtl/object_detection/` is the senior design contribution.
