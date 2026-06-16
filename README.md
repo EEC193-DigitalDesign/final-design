@@ -7,7 +7,7 @@ DE1-SoC + D8M camera. Object recognition is normally a software task on GPUs
 or CPUs; those are flexible but bottleneck on data movement, which hurts in
 real-time settings where latency matters. This design replaces the software
 path with a streaming RTL pipeline: 640x480 RGB from the camera is downsampled,
-converted to grayscale, run through a 3x3 Sobel edge detector, and scored
+converted to grayscale, blurred, run through a Sobel edge detector, and scored
 against a sparse matched-filter template, all in hardware. The detector
 operates on the live pixel stream at the camera's pixel clock, with one score
 per template-aligned window and a single best-match decision per frame.
