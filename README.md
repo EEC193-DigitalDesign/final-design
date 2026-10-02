@@ -19,7 +19,7 @@ infrastructure, simulation environment, and template-generation utilities.
 ## Project materials
 
 - [Final paper](docs/TeamThomas_RealTimeObjectDetectionFPGA_2026.pdf)
-- [Final poster](docs/EEC_193_Final_PoserPresentation.pdf)
+- [Final poster](docs/EEC_193_Final_PosterPresentation.pdf)
 
 ## Pipeline
 
